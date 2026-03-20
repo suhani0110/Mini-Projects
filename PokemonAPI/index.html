@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokémon Filter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokémon Filter</h1>
+      <div class="filters">
+        <select id="xp-filter">
+          <option value="">Filter by XP</option>
+          <option value="low">Below 100</option>
+          <option value="medium">100-200</option>
+          <option value="high">Above 200</option>
+        </select>
+        <select id="type-filter">
+          <option value="">Filter by Type</option>
+        </select>
+        <select id="name-filter">
+          <option value="">Filter by Name</option>
+          <option>  </option>
+        </select>
+      </div>
+      <div id="pokemon-list"></div>
+      <button id="load-more">Load More</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
